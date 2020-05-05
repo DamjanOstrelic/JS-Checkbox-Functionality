@@ -1,0 +1,14 @@
+html, body {
+  background: antiquewhite;
+  text-align: center;
+}
+
+.inbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+input[type="checkbox"]:checked + label{
+  text-decoration: line-through;
+}
